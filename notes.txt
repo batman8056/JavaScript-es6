@@ -1,0 +1,36 @@
+JavaScript is lightweight interpreted,
+While it is most well know as the script language for web page
+
+Data type
+*********
+
+String
+interger
+Boolean
+
+JavaScript Variable
+*******************
+
+Variable can store the data
+
+var :-
+
+var myName ="Manikandan";
+
+let:-
+
+let myName ="Manikandan";
+
+const:-
+
+const myName ="Manikandan";
+
+Naming and Naming conventions:-
+********************************
+
+Variable should be meaningfull word
+
+Variable only contain letters, number and doller symbole or under score
+
+if Variable can be contain two words it must be camel notation eg:userScore
+
