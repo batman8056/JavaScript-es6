@@ -45,3 +45,25 @@ Function
 
 function name not started with number 
 
+Control statement
+******************
+
+if
+if-else
+else
+
+Comparator or equality
+***********************
+== only check values
+=== is equal to (it is checking data types also)
+!== is not equal to
+> is greater than
+< is lesser than
+>= is greater or equal to
+<= is lesser or equal to
+
+combining Comparator
+*********************
+
+
+
