@@ -34,3 +34,14 @@ Variable only contain letters, number and doller symbole or under score
 
 if Variable can be contain two words it must be camel notation eg:userScore
 
+Increment and Decrement
+*************************
+
+X++ (increment)
+X-- (Decrement)
+
+Function 
+*********
+
+function name not started with number 
+
