@@ -71,12 +71,20 @@ combining Comparator
 
 ! NOT
 
-Control statement While loop
+Control statement While loop and For loop (state)
 ********************************
-While loop run it is true, it can be reach once false loop stoped.
+While loop run it is true, 
+it can be reach once false loop stoped.
 
 var i = 1;
 While(i<2){
     console.log(i);
     i++;
+}
+
+For loop:-(iterate)
+number of time loop need to run we define inside for loop
+
+for(i=1; i<2; i++){
+    console.log(i);
 }
