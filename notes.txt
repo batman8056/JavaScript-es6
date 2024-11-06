@@ -71,3 +71,12 @@ combining Comparator
 
 ! NOT
 
+Control statement While loop
+********************************
+While loop run it is true, it can be reach once false loop stoped.
+
+var i = 1;
+While(i<2){
+    console.log(i);
+    i++;
+}
