@@ -65,5 +65,9 @@ Comparator or equality
 combining Comparator
 *********************
 
+&& AND
 
+|| OR
+
+! NOT
 
