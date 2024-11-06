@@ -1,5 +1,5 @@
 
-function bmiCalc(weight, height){
+const bmiCalc = (weight, height)=>{
     var bmi = (weight / (height * height));
     return Math.round(bmi);
 }
