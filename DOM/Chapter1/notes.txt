@@ -1,0 +1,19 @@
+DOM(Document Object Model):-
+******************************
+Dom to add functionallity to HTML Element 
+
+index.html:-
+<html lang="en">
+<head>
+    <title>my website</title>
+</head>
+<body> 
+<button>Alert</button>
+
+</body>
+</html>
+
+Document:-
+        |----head ->  title (my website)
+html  --
+        |----body -> button (Alert)

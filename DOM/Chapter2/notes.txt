@@ -1,0 +1,54 @@
+
+
+index.html
+<body>
+    <h1>Hello world</h1>
+    <input type="checkbox">
+    <button style="color: red;">click me</button>
+    <ul>
+        <li class="list">
+            <a href="https://www.google.com/">Google</a>
+        </li>
+        <li class="list">Second</li>
+        <li class="list">third</li>
+    </ul>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+document.querySelector("input").click();
+
+we will cheoose the element(input) to perform action
+
+for example:-
+
+         |----property (color,seat and window)
+car------
+         |----methods (start(), stop() and grarChange())
+
+
+getProperty
+car.color:red;
+
+setProperty
+car.numberOfDoors = 0;
+
+property 
+*.innerHtml
+*.style
+*.firstChild
+
+
+call Method
+car.drive();
+
+method
+*.click()
+*.appendChild()
+*.setAttribute()
+
+we changed "third" value into "manikandan"
+
+document.lastChild.lastChild.querySelector("ul").lastElementChild.innerHTML ="manikandan";
+
+document.getElementsTagName("li");
+
