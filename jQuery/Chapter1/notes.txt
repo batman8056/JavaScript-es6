@@ -1,0 +1,12 @@
+jQuery
+*******
+
+The Javascript library that will prevent 
+our fingers from breaking
+
+
+document.querySelector("h1")
+         (or)
+jQuery("h1")
+$("h1")
+

@@ -3,3 +3,62 @@ JavaScript Objects
 Dominating the web, One Object at a Time
 
 
+bellBoy1{
+    "name":"Timmy",
+    "age":19,
+    "hasworkpermit":true,
+    "languages":["French","English"]
+}
+bellBoy2{
+    "name":"Jimmy",
+    "age":21,
+    "hasworkpermit":false,
+    "languages":["French","German"]
+}
+bellBoy2{
+    "name":"Bitty",
+    "age":18,
+    "hasworkpermit":true,
+    "languages":["English"]
+}
+
+constructor function:-
+----------------------
+function BellBoy (name, age, hasworkpermit, languages){
+    this.name = name;
+    this.age = age;
+    this.hasworkpermit = hasworkpermit;
+    this.languages =languages;
+}
+
+Initialise Object:-
+-------------------
+
+var bellBoy1 = new BellBoy("Timmy", 19, true, ["French","English"]);
+
+Methods:-
+---------
+
+function moveSuitcase {
+    alert("May I take your suitcase?");
+    pickUpSuitcase();
+    move();
+}
+
+function BellBoy (name, age, hasworkpermit, languages){
+    this.name = name;
+    this.age = age;
+    this.hasworkpermit = hasworkpermit;
+    this.languages =languages;
+    this.moveSuitcase =function() {
+    alert("May I take your suitcase?");
+    pickUpSuitcase();
+    move();
+}
+}
+
+update:-
+--------
+you should be using the keydown event listener 
+instead of keypress.
+
