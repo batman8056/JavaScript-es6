@@ -1,0 +1,5 @@
+JavaScript Objects
+******************
+Dominating the web, One Object at a Time
+
+

@@ -1,0 +1,42 @@
+Drum Kit
+********
+
+
+$0.addEventListener("click", responseClick);
+
+function responseClick(){
+    console.log("I got clicked");
+}
+
+
+Higher Order function
+----------------------
+"Higher order function are functions 
+that can take other function as input"
+
+function add(num1, num2) {
+return num1 + num2;
+}
+ 
+function subtract(num1, num2) {
+return num1 - num2;
+}
+ 
+function multiply(num1, num2) {
+return num1 * num2;
+}
+ 
+function divide(num1, num2) {
+return num1 / num2;
+}
+ 
+function calculator(num1, num2, operator) {
+return operator(num1, num2);
+}
+
+
+debugger;
+calculator(4,5,multiply);
+
+
+this -> is the keyword to identyfy which button clicked
