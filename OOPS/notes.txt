@@ -1,0 +1,91 @@
+whats is object-oriented programming
+*************************************
+Object is an instance of class
+class is a template for class
+ 
+class -> home blueprint
+object -> actual home
+
+A programming paradiagram centered 
+around object rather than functions.
+
+OOPS is not a programming language or tool
+
+suported
+C#, java, Ruby, Python, Javascript
+
+Why we need oop ?
+example:
+we take video game, player is the one of the object
+we stored player health, position and size multiple 
+data can be stored in single player.
+
+class is a common template we can reuse it in many object 
+
+
+4 Pillars of OOPS
+
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
+Variable called property
+function called method
+
+1. Encapsulation
+-----------------
+we can be group the data,function and method reduce complexity,
+increase reusability
+
+hiding data prevent direct access from outside.
+
+access through function (Getter and Setter)
+getter->get the information
+setter->modify the information
+
+2. Abstraction
+-----------------
+Only show essential detail
+hide all other details
+
+Reduce complexity also isolate impact of change
+simple iterface
+Reduce the impact of change
+
+Java:-
+Interface(show outside) and Implementation(hide from outside)
+
+
+3. Inheritance
+---------------
+Allow classes to use data and method from another class
+
+eliminate redundant code
+Inheritance some other property and method
+
+          Superclass
+   |-----------|----------|---
+subclass1   subclass2   subclass3
+    |
+   -|--------------|
+  subclass4  subclass5
+
+subclass Inherit from Superclass
+
+access modifiers:-
+changes where class data can be accessed from
+(public(default), private and protected)
+
+4. Polymorphism
+-----------------
+Ability of methods to take more than one from
+
+Refactor ugly switch case statement
+many form
+
+Javascript has a dynamic type system:-
+
+-Occurs during runtime
+-Both Superclass and subclass have same method
+
