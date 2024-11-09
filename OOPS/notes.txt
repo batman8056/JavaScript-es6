@@ -15,6 +15,7 @@ suported
 C#, java, Ruby, Python, Javascript
 
 Why we need oop ?
+-------------------
 example:
 we take video game, player is the one of the object
 we stored player health, position and size multiple 
@@ -24,7 +25,7 @@ class is a common template we can reuse it in many object
 
 
 4 Pillars of OOPS
-
+*******************
 1. Encapsulation
 2. Abstraction
 3. Inheritance
