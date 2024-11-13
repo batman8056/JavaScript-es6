@@ -40,3 +40,21 @@ calculator(4,5,multiply);
 
 
 this -> is the keyword to identyfy which button clicked
+
+Higher Order Function
+----------------------
+
+document.addEventListener("keypress", respondToKey(event));
+
+function respondToKey(event){
+    console.log("key pressed!");
+}
+
+$0.addEventListener("click", function(){
+    
+})
+
+Understand callback function and how to response event
+-------------------------------------------------------
+
+
