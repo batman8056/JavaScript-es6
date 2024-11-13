@@ -2,10 +2,11 @@ let numberOfButton = document.querySelectorAll('.grid-container button').length;
 
 for (var i = 0; i < numberOfButton; i++) {
     document.querySelectorAll('.grid-container button')[i].addEventListener("click", function () {
+        
         var buttonContent = this.querySelector('h4').innerHTML; // Gets the parent h4's innerHTML
         // console.log(buttonContent); // Logs the button content
         makeSound(buttonContent);
-        // buttonAnimation(buttonContent);
+        buttonAnimation(buttonContent);
     });
 }
 
@@ -13,7 +14,7 @@ for (var i = 0; i < numberOfButton; i++) {
 
 // debugger;
 function makeSound(key){
-    alert("Wait I Can Read For You!...")
+    // alert("Wait I Can Read For You!...")
     switch (key) {
         case "HTML Vision Statement:":
             var html = new Audio('./audio/welcome to html.mp3');
@@ -35,15 +36,16 @@ function makeSound(key){
     }
 }
 
-// function buttonAnimation(currentKey) {
-//     console.log(currentKey);
+function buttonAnimation(currentkey) {
+    // console.log(currentkey);
 
-//     var activeButton = document.querySelector("." + currentKey);
+    var activeButton = Array.from(document.querySelectorAll('.grid-container button')).find(
+        (button) => button.querySelector('h4').innerHTML === currentkey
+    );
+    activeButton.classList.add("pressed");
   
-//     activeButton.classList.add("pressed");
+    setTimeout(function() {
+      activeButton.classList.remove("pressed");
+    }, 300);
   
-//     setTimeout(function() {
-//       activeButton.classList.remove("pressed");
-//     }, 500);
-  
-//   }
+  }

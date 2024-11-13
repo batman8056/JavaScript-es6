@@ -58,3 +58,23 @@ Understand callback function and how to response event
 -------------------------------------------------------
 
 
+function anotherAddEventListener(typeOfEvent, callback){
+    
+    //Detect Event Code
+    var eventThantHappened = {
+        eventType:"keypress",
+        key:"p",
+        durationOfKeypressed:2
+    }
+
+    if(eventThantHappened.eventType === typeOfEvent){
+        callback(eventThantHappened);
+    }
+}
+
+//call the function
+debugger;
+anotherAddEventListener("keypress", function(event){
+    console.log(event);
+})
+
