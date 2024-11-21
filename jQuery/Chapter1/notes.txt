@@ -34,3 +34,110 @@ $("h1").addClass("big-title");here we can add class to h1 based on class what cs
 
 
 $("h1").removeClass("big-title");
+
+$("h1").hasClass("big-title");//if h1 have big-title class it is true
+
+Manipulating Text with jQuery
+********************************
+
+$("h1").text("Bye");//we can modify the value of h1
+
+
+Manipulating Attributes with jQuery
+************************************
+
+src and href it is called Attributes
+
+//anger tag inside set href link using attr
+$("a").attr("href", "https://google.com");
+
+//here we will get the class name of the h1
+console.log($("h1").attr("class"));
+
+
+Adding Event Listeners with jQuery
+***********************************
+
+//no need to use for loop when we chosse button all the buttom will be chossen
+$("button").click(function(){
+    $("h1").css("color", "red");
+});
+
+
+//when we give input any key it can be printed in console
+$("input").keypress(function(event){
+    console.log(event.key)
+});
+
+//we can modify value of h1 what we given value of keypressed
+$("body").keypress(function(event){
+    $("h1").text(event.key);
+});
+
+//we can move mouse close to h1 color will be changed yellow
+$("h1").on("mouseover",function(){
+    $("h1").css("color","yellow")
+});
+
+
+
+Adding and Removing Element with jQuery
+****************************************
+
+// //Adding new Element before h1
+// $("h1").before("<button>before h1 button</button>");
+
+// //Adding new Element after h1
+// $("h1").after("<button>after h1 button</button>");
+
+// //Adding new Element prepend h1
+// $("h1").prepend("<button>prepend h1 button</button>");
+
+// //Adding new Element append h1
+// $("h1").append("<button>append h1 button</button>");
+
+
+Website Animation with jQuery
+********************************
+
+// $("button").remove();//we can remove button element in the document
+
+// // //hide and unhide the h1
+// $("button").on("click",function(){
+//     $("h1").toggle();
+// });
+
+
+// // fade out h1
+// $("button").on("click",function(){
+//     $("h1").fadeOut();
+// });
+
+
+// //fadeout and fadein h1 using fadeToggle
+// $("button").on("click",function(){
+//     $("h1").fadeToggle();
+// });
+
+// //Slide up the h1 
+// $("button").on("click",function(){
+//     $("h1").slideUp();
+// });
+
+// //slide up and down the h1
+// $("button").on("click",function(){
+//     $("h1").slideToggle();
+// });
+
+//animate method we can add new css rules inside of the method
+// $("button").on("click",function(){
+//     $("h1").animate({opacity: 0.5});
+// });
+
+
+//we can use three method simuntanusily
+$("button").on("click",function(){
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+});
+
+
