@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+.big-title{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+.margin-50{
+    margin-left: 50%;
+}

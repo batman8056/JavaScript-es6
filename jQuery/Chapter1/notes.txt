@@ -10,3 +10,27 @@ document.querySelector("h1")
 jQuery("h1")
 $("h1")
 
+
+
+Minify 
+-------
+CSS and Javascript minifier
+
+it reduce unwanted commend and space of the code.
+it make more faster our page load
+
+Selecting Element with jQuery
+******************************
+
+$("h1");
+
+$("button").css("color", "red");//select all the button one query
+
+
+Manipulating Styles with jQuery
+********************************
+
+$("h1").addClass("big-title");here we can add class to h1 based on class what css code it can be apply
+
+
+$("h1").removeClass("big-title");
