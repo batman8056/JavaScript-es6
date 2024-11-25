@@ -7,9 +7,11 @@ class -> home blueprint
 object -> actual home
 
 A programming paradiagram centered 
+              ----------
 around object rather than functions.
-
-OOPS is not a programming language or tool
+       ------
+                                                
+OOPS is not a programming language or tool.
 
 suported
 C#, java, Ruby, Python, Javascript
