@@ -21,6 +21,19 @@ function Circle(radius){
     }
 }
 
+// call back function use to call here is this is object
+Circle.call({},1)
+//call the function instade of passing an arg we passing an array
+Circle.apply({},[1]);
+//Function are object:
+const Circle1 = new Function('radius',`console.log("this",this);
+    this.radius = radius;
+    this.draw = function(){
+        console.log("draw");
+    }`)
+
+    //calling the Function are object
+  const circle =new Circle(1)  ;
 // Class
 // class Circle {
 //     constructor(radius) {
@@ -39,5 +52,7 @@ function Circle(radius){
 const another = new Circle(1);
 
 
-another.constructor
 
+// new String();//'', "", ``
+// new Boolean();//TRUE, FALSE
+// new Number();//1,2,3,4

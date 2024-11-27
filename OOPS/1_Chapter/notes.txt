@@ -120,15 +120,26 @@ Factories and Constractors:-
 Example: 3_constFactorial.js
 
 Constractor Property:-
+=> every object have constracter property
+Example:  3_constFactorial.js
+
+Function are object:-
 =>
-Example:               
-Primitives and Refactorce types:-
-=> 
-Example:
+Example: 3_constFactorial.js
+
+(Primitives)Value vs Referance Type:-
+=>Value(number, string, Boolean, Symbol, undefine, null)
+=>Referance(Object, Array, Function)
+Example: 4_valueReferance.js
+
 working with propertys:-
+=>
+Example:
 
 Private properties:-
+=>
+Example:
 
 Getter and Settre:-
-
 =>
+Example:
