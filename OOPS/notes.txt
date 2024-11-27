@@ -13,10 +13,20 @@ around object rather than functions.
                                                 
 OOPS is not a programming language or tool.
 
-suported
+OOPS is group of related variable and function we called as a unite.
+
+variable is a property
+function is a method
+
+
+supported
 C#, java, Ruby, Python, Javascript
 
-Why we need oop ?
+Procedural Programming:-
+ ->usually we have one program set of functionlity 
+can process the data then give the output.
+
+Why we need OOPS ?
 -------------------
 example:
 we take video game, player is the one of the object
@@ -47,10 +57,12 @@ access through function (Getter and Setter)
 getter->get the information
 setter->modify the information
 
+example pls check empgetWage.js
+
 2. Abstraction
 -----------------
 Only show essential detail
-hide all other details
+hide all other details like property and method
 
 Reduce complexity also isolate impact of change
 simple iterface
@@ -64,8 +76,8 @@ Interface(show outside) and Implementation(hide from outside)
 ---------------
 Allow classes to use data and method from another class
 
-eliminate redundant code
-Inheritance some other property and method
+*eliminate redundant code
+*Inheritance some other property and method
 
           Superclass
    |-----------|----------|---
@@ -80,11 +92,14 @@ access modifiers:-
 changes where class data can be accessed from
 (public(default), private and protected)
 
-4. Polymorphism
+4. Poly  morphism
 -----------------
+    |      |
+  Many   Form
+
 Ability of methods to take more than one from
 
-Refactor ugly switch case statement
+*Refactor ugly switch/case statements
 many form
 
 Javascript has a dynamic type system:-
@@ -92,3 +107,28 @@ Javascript has a dynamic type system:-
 -Occurs during runtime
 -Both Superclass and subclass have same method
 
+
+objects
+-------
+
+Creating Objects:-
+=>Object Literal is a simple way of define the object
+Example: 2_objLiteral.js
+
+Factories and Constractors:-
+=> factors and constracter are functions.
+Example: 3_constFactorial.js
+
+Constractor Property:-
+=>
+Example:               
+Primitives and Refactorce types:-
+=> 
+Example:
+working with propertys:-
+
+Private properties:-
+
+Getter and Settre:-
+
+=>
