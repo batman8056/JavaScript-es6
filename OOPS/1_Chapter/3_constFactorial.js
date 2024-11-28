@@ -1,7 +1,7 @@
 // // Factories function:-
 // function createCircle (radius){
 //     return {
-//     radius,//if we have key and value have same same we remove the value
+//     radius,//if we have key and value have same name we remove the value
 //     draw:function(){
 //         console.log("draw");
 //     }
@@ -52,7 +52,7 @@ const Circle1 = new Function('radius',`console.log("this",this);
 const another = new Circle(1);
 
 
-
+//build in constractor
 // new String();//'', "", ``
 // new Boolean();//TRUE, FALSE
 // new Number();//1,2,3,4
