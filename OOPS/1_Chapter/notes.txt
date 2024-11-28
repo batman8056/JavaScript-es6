@@ -127,14 +127,27 @@ Function are object:-
 =>
 Example: 3_constFactorial.js
 
-(Primitives)Value vs Referance Type:-
+Value (Primitives) vs Referance Type:-
+
+Priimitive are copy by their value.
+Object are copied by their Referance.
 =>Value(number, string, Boolean, Symbol, undefine, null)
 =>Referance(Object, Array, Function)
 Example: 4_valueReferance.js
 
-working with propertys:-
+Adding and removing properties:-
+=> using dot and bracket notation
+Example:5_addRemovProperties.js
+
+
+Enumerating propertys:-
+=>using for loop and if condition
+Example:5_addRemovProperties.js
+
+
+Abstraction:-
 =>
-Example:
+example: 
 
 Private properties:-
 =>
