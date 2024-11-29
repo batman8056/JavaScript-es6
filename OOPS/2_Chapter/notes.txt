@@ -1,0 +1,6 @@
+Inheritance
+************
+
+=>Allow object to use data and method from another Object.
+
+
