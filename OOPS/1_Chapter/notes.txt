@@ -108,8 +108,8 @@ Javascript has a dynamic type system:-
 -Both Superclass and subclass have same method
 
 
- Objects
-$-------$
+    Objects
+$$$--------$$$
 
 Creating Objects:-
 =>Object Literal is a simple way of define the object
@@ -141,18 +141,24 @@ Example:5_addRemovProperties.js
 
 
 Enumerating propertys:-
-=>using for loop and if condition
+=>using for loop and if condition.
 Example:5_addRemovProperties.js
 
 
 Abstraction:-
-=>
-example: 
+=>Hide the details, show the essentials.
+example: 6_Abstraction.js
 
 Private properties:-
-=>
-Example:
+=>scope of the object and property it can store the value in the memory
+Example: 6_Abstraction.js
 
 Getter and Settre:-
-=>
-Example:
+=>get the value outside of the constracter 
+=>set the value outside of the constracter 
+Example: 7_getterAndSetter.js
+
+
+Referance
+index.html
+Object.js
