@@ -34,7 +34,16 @@ multi-level Inheritance:-
        |
     myArray
 
+=> myArray derived arrayBase and arrayBase derived objectBase
+   this is what we call multi-level inheritanc.
+
+=> Object created by a given constructor
+   will have the same prototype.
 
 
+example: 1_multi-levelinheritance.js
+
+Property Description:-
+---------------------
 
 
